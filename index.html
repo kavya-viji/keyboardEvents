@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title>Keyboard Events</title>
+	<script type="text/javascript">
+		
+		function pressme()
+		{
+			alert("The Key is Pressed ")
+		}
+		function keydown()
+		{
+			alert("The Key is down ")
+		}
+		function keyup()
+		{
+			alert("The Key is up ")
+		}
+		</script>
+</head>
+		<body>
+		Enter First text <input type="text" onkeypress="pressme()"><br>
+		Enter Second text <input type="text" onkeydown="keydown()"><br>
+		Enter First text <input type="text" onkeyup="keyup()"><br>
+
+		</body>
+</html>
